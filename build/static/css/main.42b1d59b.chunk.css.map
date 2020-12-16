@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,GACI,WAAY,CACZ,iBACF,CAEA,SACI,aAAa,CACb,cACJ","file":"main.42b1d59b.chunk.css","sourcesContent":["h1 {\n    color: green;\n    font-style: italic;\n  }\n\n  .success {\n      color:'green';\n      font-size: 15px;\n  }"]}
