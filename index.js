@@ -3,7 +3,7 @@ const app = express();
 const morgan = require("morgan");
 const cors = require('cors')
 
-//middlewares
+//middlewaresss
 app.use(express.json());  
 
 const requestLogger = (request, response, next) => {
@@ -19,8 +19,8 @@ const requestLogger = (request, response, next) => {
   app.use(express.static('build'))
 
 
-  //our mock data
 
+//Test data
 let persons = [
   {
     name: "Ada Lovelace",
