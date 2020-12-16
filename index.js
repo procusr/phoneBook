@@ -16,6 +16,7 @@ const requestLogger = (request, response, next) => {
 
   app.use(cors())
   app.use(requestLogger)
+  app.use(express.static('build'))
 
 
   //our mock data
