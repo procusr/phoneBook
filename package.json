@@ -6,7 +6,7 @@
   "scripts": {
     "build:ui": "rm -rf build && cd ../phonebook && npm run build --prod && cp -r build ../phoneBackend",
     "deploy": "git push heroku main",
-    "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && npm run deploy",    
+    "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && npm run deploy",
     "logs:prod": "heroku logs --tail",
     "start": "node index.js",
     "dev": "nodemon index.js",
@@ -16,7 +16,9 @@
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "mongoose": "^5.11.8",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
